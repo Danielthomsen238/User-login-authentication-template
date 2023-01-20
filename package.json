@@ -2,21 +2,15 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "generate-password": "^1.7.0",
+    "axios": "^1.1.3",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "jsonwebtoken": "^8.5.1",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.3",
-    "nodemailer": "^6.7.8",
-    "sequelize": "^6.21.4",
-    "vercel": "^28.2.5"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.25.6"
   }
 }
