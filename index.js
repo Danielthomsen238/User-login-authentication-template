@@ -6,6 +6,7 @@ const { UserRouter } = require("./Routes/user.router.js");
 const { initRouter } = require("./Routes/init.sequelize.router.js");
 const { AuthRouter } = require("./Routes/auth.router.js");
 const { RoleRouter } = require("./Routes/role.router.js");
+const { PetRouter } = require("./Routes/pet.router.js");
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -38,6 +39,7 @@ app.use(UserRouter);
 app.use(initRouter);
 app.use(AuthRouter);
 app.use(RoleRouter);
+app.use(PetRouter);
 
 app.listen(PORT, () => {
   console.log(`Kører på port ${PORT}`);
