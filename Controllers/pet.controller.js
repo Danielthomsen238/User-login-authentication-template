@@ -1,6 +1,6 @@
 const PetModel = require("../Models/role.model");
 
-class RoleController {
+class PetController {
   constructor() {
     console.log("Instance call of roleController");
   }
