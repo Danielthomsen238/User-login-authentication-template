@@ -1,8 +1,8 @@
-const PetModel = require("../Models/role.model");
+const PetModel = require("../Models/pet.model");
 
 class PetController {
   constructor() {
-    console.log("Instance call of roleController");
+    console.log("Instance call of PetController");
   }
 
   list = async (req, res) => {
