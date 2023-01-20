@@ -17,7 +17,7 @@ PetModel.init(
       allowNull: false,
     },
     age: {
-      type: DataTypes.INT,
+      type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 0,
     },
